@@ -24,7 +24,7 @@ class GFTextField: UITextField {
         
         layer.cornerRadius = 10
         layer.borderWidth = 2
-        layer.borderColor = UIColor.systemGray4.cgColor
+        layer.borderColor = UIColor.systemGray2.cgColor
         
         textColor = .label
         tintColor = .label
@@ -35,6 +35,7 @@ class GFTextField: UITextField {
         
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
+        returnKeyType = .go
         placeholder = "Enter a username"
     }
     
