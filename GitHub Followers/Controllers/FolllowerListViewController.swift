@@ -23,6 +23,7 @@ class FolllowerListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
+        configureSearchController()
         configureCollectionView()
         getFollowers(username: username, page: page)
         configureDataSource()
@@ -47,7 +48,13 @@ class FolllowerListViewController: UIViewController {
         
     }
     
-
+    func configureSearchController() {
+        let searchController = UISearchController()
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.placeholder = "Search for a username"
+        searchController.obscuresBackgroundDuringPresentation = false
+        navigationItem.searchController = searchController
+    }
     
     func getFollowers(username: String, page: Int) {
         showLoadingView()
@@ -110,5 +117,11 @@ extension FolllowerListViewController: UICollectionViewDelegate {
             page += 1
             getFollowers(username: username, page: page)
         }
+    }
+}
+
+extension FolllowerListViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        
     }
 }
