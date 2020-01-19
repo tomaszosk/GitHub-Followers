@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHub Followers
 //
 //  Created by Tomasz Oskroba on 1/7/20.
