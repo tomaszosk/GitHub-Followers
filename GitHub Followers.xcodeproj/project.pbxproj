@@ -18,6 +18,7 @@
 		763ACC6C23D1A7B5002483FE /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763ACC6B23D1A7B5002483FE /* GFEmptyStateView.swift */; };
 		764129E423C92C0000F8FD0A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764129E323C92C0000F8FD0A /* FollowerCell.swift */; };
 		764129E623C92D9600F8FD0A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764129E523C92D9600F8FD0A /* GFAvatarImageView.swift */; };
+		76466B5D23D45AA9000CCFFF /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76466B5C23D45AA9000CCFFF /* UserInfoViewController.swift */; };
 		768BB32623CD2523002E53EC /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB32523CD2523002E53EC /* UIHelper.swift */; };
 		7694BE2F23C36A59006F9BE6 /* FolllowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694BE2E23C36A59006F9BE6 /* FolllowerListViewController.swift */; };
 		7694BE3123C3719C006F9BE6 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694BE3023C3719C006F9BE6 /* GFTitleLabel.swift */; };
@@ -44,6 +45,7 @@
 		763ACC6B23D1A7B5002483FE /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		764129E323C92C0000F8FD0A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		764129E523C92D9600F8FD0A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		76466B5C23D45AA9000CCFFF /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		768BB32523CD2523002E53EC /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		7694BE2E23C36A59006F9BE6 /* FolllowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolllowerListViewController.swift; sourceTree = "<group>"; };
 		7694BE3023C3719C006F9BE6 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				7694BE2E23C36A59006F9BE6 /* FolllowerListViewController.swift */,
 				76361B4323C109130056127B /* FavoritesListViewController.swift */,
 				76361B4123C108CE0056127B /* SearchViewController.swift */,
+				76466B5C23D45AA9000CCFFF /* UserInfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				763ACC6C23D1A7B5002483FE /* GFEmptyStateView.swift in Sources */,
 				7694BE4223C52132006F9BE6 /* NetworkManager.swift in Sources */,
 				76361B2E23C0FEF30056127B /* AppDelegate.swift in Sources */,
+				76466B5D23D45AA9000CCFFF /* UserInfoViewController.swift in Sources */,
 				76361B4423C109130056127B /* FavoritesListViewController.swift in Sources */,
 				76361B3023C0FEF30056127B /* SceneDelegate.swift in Sources */,
 			);
