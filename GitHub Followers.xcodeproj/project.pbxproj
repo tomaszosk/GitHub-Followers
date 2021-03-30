@@ -15,6 +15,7 @@
 		72D03D1A260FDF4500B9D319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D03D19260FDF4500B9D319 /* SceneDelegate.swift */; };
 		72D03D21260FDF4500B9D319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D03D20260FDF4500B9D319 /* Assets.xcassets */; };
 		72D03D24260FDF4500B9D319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D03D22260FDF4500B9D319 /* LaunchScreen.storyboard */; };
+		72F5A2DD2613C12D0055655C /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5A2DC2613C12D0055655C /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		72D03D20260FDF4500B9D319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72D03D23260FDF4500B9D319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72D03D25260FDF4500B9D319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F5A2DC2613C12D0055655C /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				7246119B2612509F0021BF1E /* GFTextField.swift */,
 				7246119E261254B00021BF1E /* SearchVC.swift */,
 				724611A1261254D40021BF1E /* FavoritesListVC.swift */,
+				72F5A2DC2613C12D0055655C /* FollowerListVC.swift */,
 			);
 			path = "GitHub Followers";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				72D03D18260FDF4500B9D319 /* AppDelegate.swift in Sources */,
 				7246119C2612509F0021BF1E /* GFTextField.swift in Sources */,
 				7246119926124DE70021BF1E /* GFButton.swift in Sources */,
+				72F5A2DD2613C12D0055655C /* FollowerListVC.swift in Sources */,
 				724611A2261254D40021BF1E /* FavoritesListVC.swift in Sources */,
 				72D03D1A260FDF4500B9D319 /* SceneDelegate.swift in Sources */,
 			);
