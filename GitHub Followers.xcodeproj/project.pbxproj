@@ -92,7 +92,6 @@
 				72D03D17260FDF4500B9D319 /* AppDelegate.swift */,
 				72D03D20260FDF4500B9D319 /* Assets.xcassets */,
 				72D03D22260FDF4500B9D319 /* LaunchScreen.storyboard */,
-				72D03D25260FDF4500B9D319 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -116,8 +115,9 @@
 		72D03D16260FDF4500B9D319 /* GitHub Followers */ = {
 			isa = PBXGroup;
 			children = (
-				72D7AF7A2617C03E00471D8E /* Model */,
+				72D03D25260FDF4500B9D319 /* Info.plist */,
 				728C7A022616662100A17AB9 /* Support */,
+				72D7AF7A2617C03E00471D8E /* Model */,
 				728C7A01261665C300A17AB9 /* Extension */,
 				728C7A002616659300A17AB9 /* Custom views */,
 				728C79FE2616654E00A17AB9 /* Screens */,
