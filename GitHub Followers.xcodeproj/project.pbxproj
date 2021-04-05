@@ -16,6 +16,7 @@
 		726B26CE26150324001EB751 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B26CD26150324001EB751 /* GFAlertVC.swift */; };
 		726B26D1261508C3001EB751 /* UIViewController+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B26D0261508C3001EB751 /* UIViewController+EXT.swift */; };
 		729C3615261B1B170011AFAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C3614261B1B170011AFAD /* NetworkManager.swift */; };
+		729C3619261B25880011AFAD /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C3618261B25880011AFAD /* ErrorMessage.swift */; };
 		72D03D18260FDF4500B9D319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D03D17260FDF4500B9D319 /* AppDelegate.swift */; };
 		72D03D1A260FDF4500B9D319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D03D19260FDF4500B9D319 /* SceneDelegate.swift */; };
 		72D03D21260FDF4500B9D319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D03D20260FDF4500B9D319 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		726B26CD26150324001EB751 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		726B26D0261508C3001EB751 /* UIViewController+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+EXT.swift"; sourceTree = "<group>"; };
 		729C3614261B1B170011AFAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		729C3618261B25880011AFAD /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		72D03D14260FDF4500B9D319 /* GitHub Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D03D17260FDF4500B9D319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D03D19260FDF4500B9D319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		729C3617261B25730011AFAD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				729C3618261B25880011AFAD /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		72D03D0B260FDF4500B9D319 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		72D03D16260FDF4500B9D319 /* GitHub Followers */ = {
 			isa = PBXGroup;
 			children = (
+				729C3617261B25730011AFAD /* Utilities */,
 				728C7A002616659300A17AB9 /* Custom views */,
 				728C7A01261665C300A17AB9 /* Extension */,
 				72D03D25260FDF4500B9D319 /* Info.plist */,
@@ -221,6 +232,7 @@
 				7246119926124DE70021BF1E /* GFButton.swift in Sources */,
 				726B26CE26150324001EB751 /* GFAlertVC.swift in Sources */,
 				726B26CB26150266001EB751 /* GFBodyLabel.swift in Sources */,
+				729C3619261B25880011AFAD /* ErrorMessage.swift in Sources */,
 				726B26C826150116001EB751 /* GFTitleLabel.swift in Sources */,
 				72D7AF7C2617C04D00471D8E /* Follower.swift in Sources */,
 				726B26D1261508C3001EB751 /* UIViewController+EXT.swift in Sources */,
