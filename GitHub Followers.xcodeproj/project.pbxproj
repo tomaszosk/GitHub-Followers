@@ -31,6 +31,7 @@
 		72F9A8BB26277D1A00A4B1CF /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8BA26277D1A00A4B1CF /* GFError.swift */; };
 		72F9A8BE2627806200A4B1CF /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8BD2627806200A4B1CF /* GFUserInfoHeaderVC.swift */; };
 		72F9A8C1262780C600A4B1CF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8C0262780C600A4B1CF /* GFSecondaryTitleLabel.swift */; };
+		72F9A8C4262787EF00A4B1CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8C3262787EF00A4B1CF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		72F9A8BA26277D1A00A4B1CF /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		72F9A8BD2627806200A4B1CF /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		72F9A8C0262780C600A4B1CF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		72F9A8C3262787EF00A4B1CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			children = (
 				72E55FF4261FA2AA000A2B9B /* UIHelper.swift */,
 				72F9A8BA26277D1A00A4B1CF /* GFError.swift */,
+				72F9A8C3262787EF00A4B1CF /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				72D03D18260FDF4500B9D319 /* AppDelegate.swift in Sources */,
 				7246119C2612509F0021BF1E /* GFTextField.swift in Sources */,
 				7246119926124DE70021BF1E /* GFButton.swift in Sources */,
+				72F9A8C4262787EF00A4B1CF /* Constants.swift in Sources */,
 				72E55FF5261FA2AA000A2B9B /* UIHelper.swift in Sources */,
 				72F35AA8261CDDE900CFFECE /* GFAvatarImageView.swift in Sources */,
 				726B26CE26150324001EB751 /* GFAlertVC.swift in Sources */,
