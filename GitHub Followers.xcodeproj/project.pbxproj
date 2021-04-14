@@ -29,6 +29,8 @@
 		72F35AA8261CDDE900CFFECE /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F35AA7261CDDE900CFFECE /* GFAvatarImageView.swift */; };
 		72F5A2DD2613C12D0055655C /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F5A2DC2613C12D0055655C /* FollowerListVC.swift */; };
 		72F9A8BB26277D1A00A4B1CF /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8BA26277D1A00A4B1CF /* GFError.swift */; };
+		72F9A8BE2627806200A4B1CF /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8BD2627806200A4B1CF /* GFUserInfoHeaderVC.swift */; };
+		72F9A8C1262780C600A4B1CF /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F9A8C0262780C600A4B1CF /* GFSecondaryTitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		72F35AA7261CDDE900CFFECE /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		72F5A2DC2613C12D0055655C /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		72F9A8BA26277D1A00A4B1CF /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		72F9A8BD2627806200A4B1CF /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		72F9A8C0262780C600A4B1CF /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				726B26CD26150324001EB751 /* GFAlertVC.swift */,
+				72F9A8BD2627806200A4B1CF /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			children = (
 				726B26C726150116001EB751 /* GFTitleLabel.swift */,
 				726B26CA26150266001EB751 /* GFBodyLabel.swift */,
+				72F9A8C0262780C600A4B1CF /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -307,9 +313,11 @@
 				726B26CE26150324001EB751 /* GFAlertVC.swift in Sources */,
 				726B26CB26150266001EB751 /* GFBodyLabel.swift in Sources */,
 				72F35AA4261CDD7000CFFECE /* FollowerCell.swift in Sources */,
+				72F9A8BE2627806200A4B1CF /* GFUserInfoHeaderVC.swift in Sources */,
 				72F9A8BB26277D1A00A4B1CF /* GFError.swift in Sources */,
 				726B26C826150116001EB751 /* GFTitleLabel.swift in Sources */,
 				72D7AF7C2617C04D00471D8E /* Follower.swift in Sources */,
+				72F9A8C1262780C600A4B1CF /* GFSecondaryTitleLabel.swift in Sources */,
 				726B26D1261508C3001EB751 /* UIViewController+EXT.swift in Sources */,
 				729C3615261B1B170011AFAD /* NetworkManager.swift in Sources */,
 				72F5A2DD2613C12D0055655C /* FollowerListVC.swift in Sources */,
