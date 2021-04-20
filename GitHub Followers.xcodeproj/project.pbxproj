@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72318D7F262F6F4D006B270C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72318D7E262F6F4D006B270C /* PersistenceManager.swift */; };
 		7246119926124DE70021BF1E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119826124DE70021BF1E /* GFButton.swift */; };
 		7246119C2612509F0021BF1E /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119B2612509F0021BF1E /* GFTextField.swift */; };
 		7246119F261254B00021BF1E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119E261254B00021BF1E /* SearchVC.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72318D7E262F6F4D006B270C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		7246119826124DE70021BF1E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		7246119B2612509F0021BF1E /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		7246119E261254B00021BF1E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				729C3614261B1B170011AFAD /* NetworkManager.swift */,
+				72318D7E262F6F4D006B270C /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				726B26C826150116001EB751 /* GFTitleLabel.swift in Sources */,
 				72D7AF7C2617C04D00471D8E /* Follower.swift in Sources */,
 				72D255CC262B8C9F00889C76 /* Date+Ext.swift in Sources */,
+				72318D7F262F6F4D006B270C /* PersistenceManager.swift in Sources */,
 				72F9A8C1262780C600A4B1CF /* GFSecondaryTitleLabel.swift in Sources */,
 				726B26D1261508C3001EB751 /* UIViewController+EXT.swift in Sources */,
 				729C3615261B1B170011AFAD /* NetworkManager.swift in Sources */,
