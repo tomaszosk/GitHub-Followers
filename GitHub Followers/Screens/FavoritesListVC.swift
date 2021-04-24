@@ -11,8 +11,19 @@ class FavoritesListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemGray
-        
+        configureViewController()
+        getFavorites()
+    }
+    
+    
+    
+    func configureViewController() {
+        view.backgroundColor = .systemBackground
+        title = "Favorites"
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
+
+    func getFavorites() {
         PersistenceManager.retrieveFavorites { result in
             switch result {
             case .success(let favorites):
@@ -22,6 +33,4 @@ class FavoritesListVC: UIViewController {
             }
         }
     }
-    
-
 }
