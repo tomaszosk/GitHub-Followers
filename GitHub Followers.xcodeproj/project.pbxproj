@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72318D7F262F6F4D006B270C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72318D7E262F6F4D006B270C /* PersistenceManager.swift */; };
+		72396A1E263C807100D2A9DB /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72396A1D263C807100D2A9DB /* GFAlertContainerView.swift */; };
 		7246119926124DE70021BF1E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119826124DE70021BF1E /* GFButton.swift */; };
 		7246119C2612509F0021BF1E /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119B2612509F0021BF1E /* GFTextField.swift */; };
 		7246119F261254B00021BF1E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246119E261254B00021BF1E /* SearchVC.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		72318D7E262F6F4D006B270C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		72396A1D263C807100D2A9DB /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		7246119826124DE70021BF1E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		7246119B2612509F0021BF1E /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		7246119E261254B00021BF1E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				725864E2262334EC00133643 /* GFEmptyStateView.swift */,
 				724D4F0A262A035400D71EA6 /* GFItemInfoView.swift */,
+				72396A1D263C807100D2A9DB /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				72F9A8BE2627806200A4B1CF /* GFUserInfoHeaderVC.swift in Sources */,
 				72F9A8BB26277D1A00A4B1CF /* GFError.swift in Sources */,
 				726B26C826150116001EB751 /* GFTitleLabel.swift in Sources */,
+				72396A1E263C807100D2A9DB /* GFAlertContainerView.swift in Sources */,
 				72D7AF7C2617C04D00471D8E /* Follower.swift in Sources */,
 				72D255CC262B8C9F00889C76 /* Date+Ext.swift in Sources */,
 				72318D7F262F6F4D006B270C /* PersistenceManager.swift in Sources */,
