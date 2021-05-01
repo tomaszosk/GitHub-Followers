@@ -12,7 +12,7 @@ protocol UserInfoVCDelegate: class {
     func didTapGetFollowers(for user: User)
 }
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: GFDataLoadingVC {
     
     let headerView = UIView()
     let itemViewOne = UIView()
@@ -30,8 +30,6 @@ class UserInfoVC: UIViewController {
         getUserInfo()
     }
     
-    
-
     
     func layoutUI() {
         let padding: CGFloat = 20
