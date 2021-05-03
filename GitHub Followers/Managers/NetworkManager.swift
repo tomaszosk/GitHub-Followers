@@ -90,7 +90,6 @@ class NetworkManager {
     
     
     func downloadImage(from urlString: String, completionHandler: @escaping (UIImage?) -> Void) {
-        
         let cacheKey = NSString(string: urlString)
         
         if let image = cache.object(forKey: cacheKey) {
@@ -112,13 +111,7 @@ class NetworkManager {
                     completionHandler(nil)
                     return
                 }
-//            if error != nil { return }
-//            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else { return }
-//            guard let data = data else { return }
-//
-//            guard let image = UIImage(data: data) else { return }
             self.cache.setObject(image, forKey: cacheKey)
-            
             completionHandler(image)
         }
         
