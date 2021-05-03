@@ -102,9 +102,9 @@
 		724D4F16262A12DF00D71EA6 /* ItemInfoVCs */ = {
 			isa = PBXGroup;
 			children = (
+				724D4F0D262A0DBD00D71EA6 /* GFItemInfoVC.swift */,
 				724D4F13262A127A00D71EA6 /* GFFollowerItemVC.swift */,
 				724D4F10262A10C800D71EA6 /* GFRepoItemVC.swift */,
-				724D4F0D262A0DBD00D71EA6 /* GFItemInfoVC.swift */,
 			);
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
