@@ -31,11 +31,11 @@ class GFAlertVC: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         view.addSubviews(containerView, titleLabel, actionButton, messageLabel)
+        
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
@@ -86,9 +86,7 @@ class GFAlertVC: UIViewController {
         ])
     }
     
-    
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-
 }

@@ -17,6 +17,7 @@ class NetworkManager {
     private init() {}
     
     func getFollowers(for username: String, page: Int, completionHandler: @escaping (Result<[Follower], GFError>) -> Void) {
+        //MARK: URL Components to implement
         let endpoint = baseURL + "\(username)/followers?per_page=\(pageVariable)&page=\(page)"
         
         guard let url = URL(string: endpoint) else {
@@ -48,7 +49,6 @@ class NetworkManager {
                 completionHandler(.failure(.invalidData))
             }
         }
-        
         task.resume()
     }
     
@@ -88,7 +88,6 @@ class NetworkManager {
         task.resume()
     }
     
-    
     func downloadImage(from urlString: String, completionHandler: @escaping (UIImage?) -> Void) {
         let cacheKey = NSString(string: urlString)
         
@@ -114,7 +113,6 @@ class NetworkManager {
             self.cache.setObject(image, forKey: cacheKey)
             completionHandler(image)
         }
-        
         task.resume()
     }
 }

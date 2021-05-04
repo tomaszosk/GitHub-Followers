@@ -33,7 +33,6 @@ class UserInfoVC: GFDataLoadingVC {
         getUserInfo()
     }
     
-    
     func layoutUI() {
         let padding: CGFloat = 20
         let itemHeight: CGFloat = 140
@@ -117,7 +116,6 @@ class UserInfoVC: GFDataLoadingVC {
         dismiss(animated: true)
     }
 }
-
 
 extension UserInfoVC: GFRepoItemVCDelegate {
     func didTapGitHubProfile(for user: User) {

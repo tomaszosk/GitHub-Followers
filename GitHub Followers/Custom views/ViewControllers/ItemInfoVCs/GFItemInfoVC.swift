@@ -20,7 +20,6 @@ class GFItemInfoVC: UIViewController {
     let actionButton = GFButton()
     
     var user: User!
-
     
     init(user: User) {
         super.init(nibName: nil, bundle: nil)
@@ -57,7 +56,6 @@ class GFItemInfoVC: UIViewController {
     }
     
     @objc func actionButtonTapped() {
-        
     }
     
     private func layoutUI() {
